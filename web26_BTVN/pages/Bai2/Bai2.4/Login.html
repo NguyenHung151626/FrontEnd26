@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tạo form đăng nhập đơn giản</title>
+</head>
+<body>
+	<form name="form" action="process.js" method="POST">
+		<table border="1px" align="center" width="28%" height="210px">
+			<colgroup>
+				<col width="25%">
+				<col width="13%">
+				<col width="13%">
+				<col width="*">
+			</colgroup>
+			<tr>
+				<td colspan="4" align="center" bgcolor="#878282">Đăng nhập hệ thống</td>
+			</tr>
+			<tr>
+				<td colspan="2">Tên tài khoản</td>
+				<td colspan="2">
+					<input required="true" type="text" name="username" placeholder="administrator" size="25">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">Mật khẩu</td>
+				<td colspan="2">
+					<input required="true" type="password" name="matkhau" size="25">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">Xác nhận mật khẩu</td>
+				<td colspan="2">
+					<input required="true" type="password" name="xacnhanmatkhau" size="25">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">Ghi nhớ</td>
+				<td colspan="2">
+					<input type="checkbox" name="" checked="true">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="submit" value="Đăng nhập">
+				</td>
+				<td colspan="2">
+					<button type="reset">Làm mới</button>
+				</td>
+			</tr>
+			<tr height="30px" bgcolor="#878282">
+				<td colspan="4"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
