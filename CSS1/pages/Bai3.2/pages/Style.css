@@ -1,0 +1,343 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: Arial;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: orange;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+#Main{
+	width: 80%;
+	height: 1450px;
+	background-color: white;
+}
+#adLeft{
+	width: 10%
+	height:1150px;
+	background-color: green;
+}
+#adRight{
+	width: 10%
+	height:1150px;
+	background-color: green;
+}
+/*bo cuc*/
+#AnhBia{
+	width: 795px;
+	height: 500px;
+	background-image: url(../../../images/123.jpg);
+	background-repeat: no-repeat;
+}
+#Nav{
+	width: 100%;
+	height: 50px;
+	background-color: white;
+}
+#Left{
+	width: 150px;
+	height: 800px;
+	background-color: white;
+	display: block;
+	float: left;
+}
+#Content{
+	margin-left: 8px;
+	width:calc(100% - 320px);
+	height: 800px;
+	background-color: white;
+	display: inline-block;
+}
+#Right{
+	width: 150px;
+	height: 800px;
+	background-color: white;
+	display: inline-block;
+	float: right;
+}
+#Footer{
+	width: 100%;
+	height: 60px;
+	background-color: white;
+}
+
+/*Bo cuc content*/
+#ZentAd{
+	width: 100%;
+	height: 90px;
+	background-color: white;
+}
+#news1{
+	width: 100%;
+	height: 168px;
+	background-color: white;
+	margin-top: 20px;
+}
+#news2{
+	/*mo dau xoa float*/
+	clear: both;
+	width: 100%;
+	height: 168px;
+	background-color: white;
+}
+#news3{
+	clear: both;
+	width: 100%;
+	height: 168px;
+	background-color: white;
+}
+#news4{
+	clear: both;
+	width: 100%;
+	height: 168px;
+	background-color: white;
+}
+
+/*bo cuc Left*/
+/*chua su dung responsive*/
+#danhmuc{
+	width: 100%;
+	height: 110px;
+	background-color: white;
+	display: block!important;
+	border-style: solid;
+	border-width: 1px;
+}
+#baiviet{
+	width: 100%;
+	height: 140px;
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	margin-top: 20px;
+}
+#adImagesLeft{
+	width: 100%;
+	height: 180px;
+	background-color: white;
+}
+
+/*bo cuc Right*/
+#TuVan{
+	width: 100%;
+	height: 90px;
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+}
+#Baimoi{
+	width: 100%;
+	height: 150px;
+	background-color: white;
+	margin-top: 20px;
+	border-style: solid;
+	border-width: 1px;
+}
+#adImagesRight{
+	width: 100%;
+	height: 180px;
+	background-color: white;
+}
+
+/*thanh phan, con chau*/
+/*thanh phan dung chung Main*/
+
+p[title=tieudedanhmuc]{
+	text-align: center;
+	background-image: url(../../../images/menu_bar.gif);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	vertical-align: middle;
+	margin-left: 0px!important;
+	color: white;
+	font-weight: bold;
+}
+.cachdong{
+	margin-top: 8px;
+}
+/*thanh phan dung chung Left*/
+#Left p{
+	margin-left: 5px;
+	line-height: 20px;
+}
+#Left a{
+
+	margin-left: 0px;
+	text-decoration-line: none;
+	color: black;
+}
+
+.img{
+	margin-top: 20px;
+}
+#online{
+	margin-top: 10px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+#offline{
+	margin-top: 5px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+/*thanh phan Right*/
+#Right p{
+	margin-left: 5px;
+	line-height: 20px;
+}
+#Right a{
+
+	margin-left: 0px;
+	text-decoration-line: none;
+	color: black;
+}
+#Footer{
+	background-color: gray;
+}
+
+/*content*/
+#Ad{
+	margin-top: 0;
+	margin-left: 5px;
+	text-align: left;
+	font-style: italic;
+	border-radius: 25px;
+	background: #ECAB6A;
+	padding: 20px;
+}
+/*so le*/
+.le .imageFull{
+	background-image: url(../../../images/main_bar_left.gif);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 30px;
+}
+.le a[title~=textInImage]{
+	text-decoration-line: none;
+	color: white;
+	font-weight: bold;
+}
+.le .fixText{
+	width: 98%;
+	height: 24px;
+}
+.le a[title~=textBotImage]{
+	text-decoration-line: none;
+	color: orange;
+}
+/*content news1234*/
+.le .contentNews{
+	width: 100%;
+	height: 122px;
+}
+/*contentNews*/
+.le .addImage{
+	width: 155px;
+	height: 108px;
+	display: inline-block;
+}
+.le .contentText{
+	width: calc(100% - 160px);
+	height: 108px;
+	float: right;
+}
+.le .phantram{
+	width: 98%;
+	height: 6px;
+	display: block;
+	float: right;
+}
+/*so chan*/
+.chan .imageFull{
+	background-image: url(../../../images/main_bar_right.gif);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 30px;
+}
+.chan a[title~=textInImage]{
+	text-decoration-line: none;
+	color: white;
+	font-weight: bold;
+}
+.chan .phantram{
+	width: 98%;
+	height: 6px;
+	display: block;
+}
+.chan .fixText{
+	width: 98%;
+	height: 24px;
+	display: block;
+	text-align: right;
+}
+.chan a[title~=textBotImage]{
+	text-decoration-line: none;
+	color: orange;
+	margin-right: 5px;
+}
+/*content news1234*/
+.chan .contentNews{
+	width: 100%;
+	height: 122px;
+}
+/*contentNews*/
+.chan .addImage{
+	width: 155px;
+	height: 108px;
+	display: inline-block;
+	float: right;
+}
+.chan .contentText{
+	width: calc(100% - 160px);
+	height: 108px;
+}
+
+/*fix image .jpg*/
+.chan .fixDemension{
+	width: 155px;
+	height: 108px;
+}
+.chan .blockBotImage{
+	text-align: right;
+}
+.blockBotImage{
+	width: 100%;
+	height: 16px;
+}
+.chitiet{
+	text-decoration-line: none;
+	color: red;
+}
+.addImage{
+	border: 1px solid #ddd;
+  	border-radius: 4px;
+  	padding: 1px;
+}
+#Footer p{
+	text-align: center;
+}

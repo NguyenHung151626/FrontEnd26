@@ -1,0 +1,64 @@
+
+/*div1*/
+.item1{
+	width: 80%;
+	height: 40px;
+	display: inline-block;
+	background-color: green;
+}
+/*div2*/
+.item2{
+	width: 20%;
+	height: 124px;
+	display: inline-block;
+	float: right;
+	background-color: pink;
+}
+.clearItem2{
+	clear: both;
+}
+/*div3*/
+.item3{
+	width: 80%;
+	height: 80px;
+	float: left;
+	background-color: orange;
+}
+.clearItem3{
+	clear: both;
+}
+/*....*/
+.clearItem2 p{
+	font-size: 15px;
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+/*thanh phan*/
+li{
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 20px;
+}
+ul.dautick li{
+	list-style-image: url(../../../images/ico_check.gif);
+	
+}
+ul.phoneImage li{
+	list-style-image: url(../../../images/img_kinhdoanh.gif);
+}
+li a{
+	display: block;
+	width: 100%;
+	height: 20px;
+	font-weight: bold;
+	color: black;
+}
+li a:hover{
+	color: blue;
+}
+.alignLeft{
+	margin-left: 200px;
+}
