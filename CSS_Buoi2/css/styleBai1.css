@@ -1,0 +1,180 @@
+#parents{
+	width: 100%;
+	position: relative;
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+#left{
+	position: relative;
+	width: 15%;
+	height: 900px;
+	display: inline-block;
+}
+#main{
+	position: relative;
+	width: 60%;
+	height: 900px;
+	display: inline-block;
+}
+#footer{
+	position: relative;
+	width: 100%;
+	height: 40px;
+}
+#titlePage{
+	font-weight: bold;
+	font-size: 30px;
+	position: absolute;
+	top: 40px;
+	left: 30px;
+	z-index: 1;
+}
+#topBar{
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	z-index: 2;
+}
+.clearFloat{
+	clear: both;
+	position: relative;
+}
+#imgRow1{
+	position: absolute;
+	width: 100%;
+	height: 240px;
+	top: 100px;
+	left: 0px;
+}
+#imgRow2{
+	position: absolute;
+	width: 100%;
+	height: 240px;
+	top: 360px;
+	left: 0px;
+}
+#imgRow3{
+	position: absolute;
+	width: 100%;
+	height: 240px;
+	top: 620px;
+	left: 0px;
+}
+.imgBgColor{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 150px;
+	height: 40px;
+	border-radius: 10px 10px 0 0;
+	background-color: #E5E5E5;
+}
+#main img{
+	position: absolute;
+	width: 150px;
+	height: 200px;
+	bottom: 0px;
+	left: 0px;
+	border-radius: 0 0 10px 10px;
+}
+#main li{
+	list-style-type: none;
+	float: left;
+	width: 150px;
+	height: 240px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	margin-left: 20px;
+	position: relative;
+}
+#main li:hover .imgTextTop{
+	color: blue;
+}
+@keyframes example{
+	from {border: 2px solid yellow;}
+	to {border-color: gray;}
+}
+#main li:hover{
+	animation-name: example;
+	animation-duration: 4s;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+}
+.imgTextTop{
+	position: absolute;
+	font-weight: bold;
+	top:10px;
+	left: 5px;
+}
+.imgTextBot{
+	position: absolute;	
+	color: white;
+	font-size: 15px;
+	width: 145px;
+	padding-top: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 0 0 10px 10px;
+	padding-left: 5px;
+	bottom: 0px;
+	left: 0px;
+}
+
+/*tag left*/
+#left ul{
+	position: absolute;
+	top: 100px;
+	left: 30px;
+}
+#left a{
+	text-decoration-line: none;
+	color: rgba(0, 0, 0, 0.5);
+}
+#left a:hover{
+	color: blue;
+}
+#left li{
+	list-style-type: none;
+	margin-top: 20px;
+}
+#footer li{
+	float: left;
+	list-style-type: none;
+	margin-left: 20px;
+}
+#footer ul{
+	position: absolute;
+	top: 5px;
+	left: 200px;
+}
+#footer div{
+	position: absolute;
+	top: 5px;
+	left: 20px;
+}
+
+
+#titlePage a{
+	text-decoration-line: none;
+	color: black;
+}
+
+#topBar li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+#topBar li:hover{
+	background-color: #e2cfcfad;
+}
+#topBar a{
+	text-decoration-line: none;
+	color: black;
+}
+
+/*chon a hover tro li???*/
