@@ -1,0 +1,258 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#menu{
+	position: relative;
+	margin: 0 auto;
+	width: 660px;
+	height: 40px;
+}
+#menu li{
+	float: left;
+	list-style-type: none;
+	padding: 5px 10px 5px 10px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+#menu li a{
+	text-decoration-line: none;
+	color: black;
+}
+#menu img{
+	position: absolute;
+	top: 0;
+	left: 230px;
+	z-index: 2;
+}
+#menu ul{
+	position: absolute;
+	top: 30px;
+	left: 100px;
+}
+#menu li:hover a{
+	color: rgba(0, 0, 0, 0.15);
+}
+
+/*tool*/
+#tool{
+	width: 100%;
+	height: 800px;
+	background-color: rgba(23, 16, 31, 0.15);
+	margin-top: 60px;
+}
+#toolTitle{
+	width: 100%;
+	padding-top: 100px;
+	font-weight: bold;
+	color: rgba(30, 220, 185, 1);
+}
+#toolBlock{
+	width: 100%;
+	margin-top: 5%;
+}
+#toolItem1{
+	margin-left: 20px;
+	width: 300px;
+	height: 240px;
+	display: inline-block;
+	float: left;
+}
+#toolItem2{
+	margin-left: 10px;
+	width: 300px;
+	height: 240px;
+	display: inline-block;
+}
+#toolItem3{
+	margin-left: 10px;
+	width: 300px;
+	height: 240px;
+	display: inline-block;
+}
+.toolImages img{
+	width: 300px;
+	height: 150px;
+}
+#toolItem4{
+	margin-left: 20px;
+	width: 300px;
+	height: 240px;
+	display: inline-block;
+}
+#toolItem5{
+	margin-left: 10px;
+	width: 300px;
+	height: 240px;
+	display: inline-block;
+}
+#toolItem6{
+	margin-left: 10px;
+	width: 300px;
+	height: 240px;
+	display: inline-block;
+}
+#toolFooter{
+	padding: 0 20px 0 20px;
+}
+.toolItemInfo{
+	position: relative;
+}
+.toolItemPosition{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+/*information*/
+#information{
+	padding-top: 30px;
+	height: 300px;
+}
+#infoAboutMe{
+	margin-left: 20px;
+	width: 630px;
+	display: inline-block;
+	float: left;
+}
+#infoQuiz{
+	margin-left: 10px;
+	width: 270px;
+	display: inline-block;
+}
+.infoTitle{
+	font-weight: bold;
+	color: rgba(30, 220, 185, 1);
+}
+.doan{
+	padding-top: 10px;
+	margin-right: 20px;	
+}
+.doan a{
+	color: rgba(30, 220, 185, 1);
+}
+#infoIcons{
+	margin-top: 20px;
+}
+.icon{
+	position: relative;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background-color: green;
+	float: left;
+	margin-left: 20px; 
+	/*thieu border*/
+}
+.icon i{
+	line-height: 24px;
+	margin-left: 5px;
+}
+.icon a{
+	text-decoration-line: none;
+	color: white;
+}
+.icon:hover a{
+	color: rgba(30, 220, 185, 1);
+}
+#login{
+	clear: both;
+	width: 96%;
+	background-color: rgba(173, 222, 197, 1);
+	padding: 20px;
+}
+input[type=text], textarea, input[type=number]{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type=submit]{
+	color: white;
+	width: 60px;
+	height: 40px;
+	background-color: rgba(33, 28, 103, 0.5);
+	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+  	margin: 8px 0;
+}
+.canchuragiua{
+	margin-left: 30%;
+}
+@media screen and (min-width: 481px) and (max-width: 700px){
+	#tool{
+		height: 1000px;
+	}
+	#toolItem1, #toolItem3, #toolItem5{
+		margin-left: 40px;
+	}
+	#toolItem2, #toolItem4, #toolItem6{
+		margin-left: 10px;
+	}
+	#toolFooter{
+		padding: 0 40px 0 40px;
+	}
+	/*information*/
+	#information{
+		height: 420px;
+	}
+	.doan{
+		margin-right: 0;
+	}
+	#infoQuiz{
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	.canchuragiua{
+		margin-left: 20%;
+	}
+}
+@media screen and (max-width: 480px){
+	#tool{
+		height: 2100px;
+	}
+	#toolItem1, #toolItem3, #toolItem5,
+	#toolItem2, #toolItem4, #toolItem6{
+		width: 450px;
+		height: 300px;
+		margin: 0 15px 0 15px;
+	}
+	#menu ul{
+		display: none;
+	}
+	#menu img{
+		position: relative;
+		top: 0;
+		left: 140px;
+	}
+	.toolImages img{
+	width: 450px;
+	height: 226px;
+	}
+	#toolFooter{
+	padding: 0 15px 0 15px;
+	}
+	/*information*/
+	#information{
+		height: 500px;
+	}
+	#infoAboutMe{
+		width: 100%;
+	}
+	.doan{
+		margin-right: 45px;
+	}
+	#infoQuiz{
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	.canchuragiua{
+		margin-left: 10%;
+	}
+	#toolSlogan{
+		display: none;
+	}
+}
