@@ -91,6 +91,12 @@ font{
 .khung i{
 	font-size: 30px;
 }
+.khung i:hover{
+	background-color: #e0592e;
+}
+.phan1 i:hover{
+	background-color: #e0592e;
+}
 .khung p{
 	margin-top: 20%;
 }
