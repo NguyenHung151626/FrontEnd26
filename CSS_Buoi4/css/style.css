@@ -1,0 +1,253 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#nav{
+	position: relative;
+	width: 100%;
+	height: 40px;
+}
+#navBar{
+	width: 600px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#navBar li{
+	list-style-type: none;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 40px;
+}
+#nav a{
+	text-decoration-line: none;
+	color: black;
+}
+#nav li a:hover{
+	color: red;
+}
+#multi{
+	line-height: 40px;
+	padding-left: 5%;
+}
+font{
+	color: red;
+}
+#Image1{
+	width: 100%;
+}
+#Image1 img{
+	width: 100%;
+}
+#chamImage li{
+	list-style-type: none;
+	float: left;
+	padding-left: 1%;
+}
+#chamImage{
+	margin-left: 48%;
+}
+#chamImage a{
+	text-decoration-line: none;
+	color: black;
+}
+#chamImage i{
+	font-size: 10px;
+}
+#chamImage i:hover{
+	color: #ff5722;
+}
+#block2{
+	width: 100%;
+	clear: both;
+}
+#block2Padding{
+	width: 90%;
+	padding: 0 5% 0 5%;
+}
+#block2Padding > p{
+	text-align: center;
+}
+.khung{
+	width: 17.5%;
+	display: inline-block;
+	float: left;
+	padding-left: 10%;
+	text-align: center;
+	padding-top: 8%;
+	cursor: pointer;
+}
+#khung1{
+	padding-left: 0;
+}
+.khung i, .phan1 i{
+	color: white;
+	padding: 10%;
+	background-color: #ff5722;
+	border-radius: 50%;
+}
+.khung i{
+	font-size: 30px;
+}
+.khung p{
+	margin-top: 20%;
+}
+#block3{
+	clear: both;
+	width: 100%;
+	padding-top: 10%;
+}
+#block3 p{
+	text-align: center;
+}
+
+#block4{
+	width: 90%;
+	padding: 5%;
+}
+.khunganh{
+	width: 48%;
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+}
+#khunganh2{
+	padding-left: 4%;
+}
+.khunganh img{
+	width: 100%;
+}
+
+#block5{
+	clear: both;
+	width: 90%;
+	padding: 5%;
+}
+.khoi{
+	width: 32%;
+	padding-left: 2%;
+	display: inline-block;
+	float: left;
+}
+#khoi1{
+	padding-left: 0;
+}
+.phan1{
+	width: 20%;
+	padding: 0;
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+.phan1 i{
+	cursor: pointer;
+}
+.phan2{
+	width: 79%;
+	padding-left: 1%;
+	display: inline-block;
+}
+.phan2Info{
+	margin-top: 10px;
+}
+
+#block6{
+	clear: both;
+	width: 100%;
+	padding-top: 10%;
+	margin-top: 10%;
+	background-color: red;
+}
+#chuto{
+	font-size: 20px;
+}
+#chuto, #chunho{
+	text-align: center;
+}
+
+#nut{
+	margin-top: 20px;
+	text-align: center;
+}
+#block6 a{
+	padding: 10px;
+	text-decoration-line: none;
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+}
+#block6 a:hover{
+	opacity: 0.8;
+	color: #673AB7;
+}
+#block7{
+	display: none;
+	width: 90%;
+	padding: 5%;
+}
+#block7 p{
+	text-align: center;
+	margin-top: 10px;
+}
+.khoinhanvien{
+	margin-top: 20px;
+	width: 100%;
+	cursor: pointer;
+}
+.khoinhanvien img{
+	width: 100%;
+}
+
+@media screen and (max-width: 1024px){
+	.khunganh{
+		width: 100%;
+	}
+	.khoi{
+		width: 100%;
+		padding-left: 0;
+		margin-top: 8%;
+	}
+	@media screen and (min-width: 769px) and (max-width: 1024px) {
+		#chamImage{
+				margin-left: 48%;
+			}
+	}
+	@media screen and (max-width: 768px) {
+		#navBar{
+			display: none;
+		}
+		@media screen and (min-width: 421px) and (max-width: 768px) {
+			.khung{
+				width: 48%;
+				padding-left: 4%;
+			}
+			#khung3{
+				padding-left: 0;
+			}
+			#chamImage{
+				margin-left: 46%;
+			}
+		}
+		@media screen and (max-width: 420px){
+			.khung{
+				width: 100%;
+				padding-left: 0;
+				margin: 0;
+				background-color: rgba(128, 128, 128, 0.21);
+				
+			}
+			#block2Padding{
+				width: 100%;
+				padding: 0;
+			}
+			#block7{
+				display: block;
+			}
+			#chamImage{
+				margin-left: 44%;
+			}
+		}
+	}
+}
