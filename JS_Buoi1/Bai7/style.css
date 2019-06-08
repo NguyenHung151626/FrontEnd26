@@ -1,0 +1,23 @@
+.khoi{
+	width: 23%;
+	margin-left: 2%;
+	display: inline-block;
+	float: left;
+}
+#khoi0{
+	margin-left: 0;
+}
+input[type=button]{
+	clear: both;
+	width: 100px;
+	border-radius: 5px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	cursor: pointer;
+}
+input[type=button]:hover{
+	background-color: rgb(75, 167, 78);
+}
