@@ -1,0 +1,40 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#paddingMenu{
+	width: 88%;
+	height: 400px;
+	padding: 10px 10% 20px 2%;
+	background-image: url(images/2.jpg);
+}
+#paddingMenu li{
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	margin-right: 0.2%;
+	padding: 4px 10px 4px 10px;
+	color: white;
+	background-color: rgba(80, 67, 67, 0.89);
+	cursor: pointer;
+}
+#tabParents{
+	width: 100%;
+	clear: both;
+	position: relative;
+}
+.tabContent{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: calc(100% - 10px);
+	padding-left: 10px;
+	background-color: white;
+	padding-bottom: 10px;
+}
+.contentTitle{
+	font-weight: bold;
+}
+#tab2,#tab3{
+	display: none;
+}
