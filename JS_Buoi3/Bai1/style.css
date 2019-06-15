@@ -1,0 +1,76 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+form{
+	width: 60%;
+	padding: 20px 20% 20px 20%;
+}
+#border{
+	border: 1px solid black;
+	width: 96%;
+	padding: 2%;
+}
+.div{
+	width: 100%;
+	margin-bottom: 20px;
+}
+#divFinal{
+	margin-bottom: 0;
+}
+.text{
+	width: 30%;
+	display: inline-block;
+	float: left;
+}
+.fields{
+	width: 70%;
+	display: inline-block;
+}
+.errorAlert{
+	width: 35%;
+	color: red;
+	padding-left: 5%;
+}
+.fields input[type=text], .fields input[type=email],
+.fields input[type=password]{
+	width: calc(60% - 24px);
+	padding: 10px 12px;
+	border: 1px solid black;
+	display: inline-block;
+}
+#checkbox{
+	width: 60%;
+	display: inline-block;
+}
+#checkboxAlert{
+	margin-left: 4px;
+}
+#nu{
+	margin-left: 10%;
+}
+input[type=button], input[type=reset]{
+	width: calc(42% + 4px);
+	background-color: #4CAF50;
+	color: white;
+	padding: 8px 0 8px 0;
+	margin: 4px 0 4px 0;
+	border: none;
+	cursor: pointer;
+	margin-left: 30%;
+}
+input[type=button]:hover, input[type=reset]:hover {
+  opacity: 0.9;
+}
+.fields input[type=text]:focus {
+	border-color: transparent;
+	border: 1px solid blue;
+}
+@media screen and (max-width: 1256px) {
+	.errorAlert{
+		display: block;
+		width: 50%;
+		padding-top: 10px;
+		padding-right: 5%;
+	}
+}

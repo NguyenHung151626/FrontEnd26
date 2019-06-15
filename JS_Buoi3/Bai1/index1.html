@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+	<form action="voAlo">
+		<div id="border">
+			<div class="div">
+				<div class="text">
+					Họ và tên
+				</div>
+				<div class="fields">
+					<input required="true" type="text" name="" placeholder="Nhập họ tên..." onchange="checkClient()">
+					<span class="errorAlert"></span>
+				</div>
+			</div>
+			<div class="div">
+				<div class="text">
+					Giới tính
+				</div>
+				<div class="fields">
+					<div id="checkbox">
+						<input type="radio" name="rd" id="nam">Nam
+						<input type="radio" name="rd" id="nu">Nữ
+					</div>
+					<span class="errorAlert" id="checkboxAlert"></span>
+				</div>
+			</div>
+			<div class="div">
+				<div class="text">
+					Email
+				</div>
+				<div class="fields">
+					<input required="true" type="email" name="" placeholder="Nhập email..." onchange="checkClient()">
+					<span class="errorAlert"></span>
+				</div>
+			</div>
+			<div class="div">
+				<div class="text">
+					Số điện thoại
+				</div>
+				<div class="fields">
+					<input required="true" type="text" name="" placeholder="Nhập số điện thoại..." onchange="checkClient()">
+					<span class="errorAlert"></span>
+				</div>
+			</div>
+			<div class="div">
+				<div class="text">
+					Mật khẩu
+				</div>
+				<div class="fields">
+					<input required="true" type="password" name="" onchange="checkClient()">
+					<span class="errorAlert"></span>
+				</div>
+			</div>
+			<div class="div">
+				<div class="text">
+					Xác nhận mật khẩu
+				</div>
+				<div class="fields">
+					<input required="true" type="password" name="" onchange="checkClient()">
+					<span class="errorAlert"></span>
+				</div>
+			</div>
+		</div>
+		<input type="button" name="" value="Đăng ký" onclick="checkClient()">
+		<input type="reset" name="" value="Xóa trang" onclick="reset()">
+	</form>
+	<script type="text/javascript" src="javascriptB10.js"></script>
+</body>
+</html>
