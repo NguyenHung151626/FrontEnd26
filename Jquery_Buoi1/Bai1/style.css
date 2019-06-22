@@ -1,0 +1,74 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#pageName{
+	color: white;
+	font-style: italic;
+	padding: 40px 15% 20px 15%;
+	width: 75%;
+	font-weight: bold;
+}
+#name{
+	font-size: 40px;
+}
+#name span{
+	font-size: 18px;
+	color: rgb(154, 255, 112);
+}
+#icon i{
+	color: #51e812;
+	font-size: 17px;
+}
+#icon span{
+	color: rgba(255, 255, 255, 0.6);
+}
+#accordion{
+	width: 80%;
+	margin: 20px 10%;
+	border: 1px solid black;
+	background-image: url('images/2.jpg');
+}
+.title{
+	position: relative;
+	border-top: 1px solid black;
+	padding: 20px 40px;
+	color: white;
+}
+#firstTitle{
+	border-top: none;
+}
+.title p{
+	font-size: 30px;
+}
+.title .fa-plus,.title .fa-minus{
+	position: absolute;
+	top: 15px;
+	left: -27px;
+	z-index: 1;
+	color: rgb(32, 136, 54);
+	font-size: 40px;
+	background-color: rgb(154, 255, 112);
+	cursor: pointer;
+	padding: 2px 12px;
+	border-radius: 8px;
+}
+.content{
+	display: none;
+	padding: 20px 40px;
+	border-top: 1px solid black;
+	color: white;
+	font-size: 30px;
+}
+.noneContent{
+	display: none;
+}
+.blockContent{
+	display: block;
+}
+.whiteTitleColor{
+	color: white;
+}
+.greenTitleColor{
+	color: rgb(154, 255, 112);
+}

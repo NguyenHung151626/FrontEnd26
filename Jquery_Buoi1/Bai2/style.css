@@ -1,0 +1,59 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 25px;
+}
+#to-do-list{
+	width: 100%;
+}
+#add{
+	width: 90%;
+	padding: 40px 5% 80px 5%;
+	background-color: rgba(255, 0, 0, 0.73);
+}
+#title{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 20px;
+}
+#add input[type=text]{
+	width: calc(70% - 20px);
+	border: none;
+	float: left;
+	padding: 10px;
+}
+#add input[type=button]{
+	width: 30%;
+	border: none;
+	float: right;
+	padding: 10px 0;
+}
+#list{
+	width: 100%;
+}
+#list li{
+	padding: 10px 5%;
+	position: relative;
+	cursor: pointer;
+	background-color: rgba(255, 255, 0, 0.41);
+}
+#list .fa-check{
+	position: absolute;
+	top: 11px;
+	left: 2%;
+}
+#list .fa-times{
+	position: absolute;
+	top: 11px;
+	right: 2%;
+}
+.select{
+	text-decoration: line-through;
+	background-color: gray!important;
+	color: white;
+}
+.hide{
+	display: none!important;
+}
