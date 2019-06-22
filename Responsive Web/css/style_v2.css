@@ -1,0 +1,279 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#menuParents{
+	position: relative;
+	width: 100%;
+}
+#menu{
+	width: 660px;
+	height: 40px;
+	margin: 0 auto;
+}
+#menu ul{
+	padding-top: 30px;
+	margin-left: 16%;
+}
+#menu li{
+	position: relative;
+	float: left;
+	list-style-type: none;
+	padding: 1%;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+#menu li a{
+	text-decoration-line: none;
+	color: black;
+}
+#menuImages{
+	border:none!important;
+}
+#menu li img{
+	position: absolute;
+	top: -30px;
+	left: -2%;
+}
+#menuWidthImage{
+	width: 100%;
+}
+#menuWidthImage img{
+	width: 20%;
+	display: none;
+}
+#menu li:hover a{
+	color: rgba(0, 0, 0, 0.15);
+}
+
+/*block*/
+#backGround{
+	width: 90%;
+	padding: 5%;
+	background-color: rgba(23, 16, 31, 0.15);
+}
+#paddingBlock{
+	width: 100%;
+	padding-top: 12%;
+}
+#paddingBlock > p{
+	text-align: center;
+}
+#TitleBig{
+	font-family: "Footlight MT Light";
+	font-size: 50px;
+	font-weight: bold;
+	color: rgba(30, 220, 185, 1);
+	text-shadow: 1px 1px 1px rgba(30, 220, 185, 1);
+	margin-bottom: 10px;
+}
+.toolItem{
+	width: 32%;
+	display: inline-block;
+	float: left;
+	margin-top: 5%;
+	margin-left: 2%;
+}
+.toolItem img{
+	width: 100%;
+}
+.toolItemInfo{
+	position: relative;
+	width: 100%;
+	margin-top: 4%;
+}
+.toolItemPosition{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#toolItem1, #toolItem4{
+	margin-left: 0;
+}
+.toolItemTitle{
+	color: rgba(30, 220, 185, 1);
+}
+.toolItemInfoArticle{
+	margin-top: 4%;
+}
+#toolFooter{
+	clear: both;
+	padding-top: 20px;
+	text-align: center;
+}
+#backGroundInformation{
+	width: 90%;
+	padding: 5%;
+}
+#aboutMe{
+	width: 64%;
+	padding-right: 4%;
+	padding-bottom: 5%;
+	display: inline-block;
+	float: left;
+}
+#stalker{
+	width: 30%;
+	padding-right: 2%;
+	padding-bottom: 5%;
+	display: inline-block;
+}
+.infoTitle{
+	font-weight: bold;
+	color: rgba(30, 220, 185, 1);
+}
+.doan{
+	padding-top: 10px;
+}
+.doan a{
+	color: rgba(30, 220, 185, 1);
+}
+#infoIcons{
+	padding-top: 10px;
+}
+#infoIcons i{
+	color: white;
+	padding: 5px;
+	border-radius: 50%;
+	background-color: black;
+}
+#iconFacebook{
+	padding-left: 10px!important;
+	padding-right: 10px!important;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-radius: 50%;
+	color: white;
+	background-color: black;
+}
+#infoIcons i:hover{
+	color: rgba(0, 243, 255, 1);
+}
+#backGround img{
+	border: 1px solid white;
+	padding: 1%;
+	background-color: white;
+	border-radius: 1%;
+}
+#infoIcons i{
+
+	text-shadow: 0 0 3px #000;
+}
+.vientrang{
+	float: left;
+	margin-left: 10%;
+}
+#kocachdong{
+	margin-left: 5%;
+}
+/*login*/
+#login{
+	clear: both;
+	width: 90%;
+	padding: 5%;
+	background-color: rgba(173, 222, 197, 1);
+	color: white;
+}
+#login div{
+	font-size: 20px;
+}
+#login p{
+	margin-bottom: 10px;
+}
+input[type=text],input[type=number],textarea{
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 8px;
+	margin-bottom: 12px;
+}
+input[type=submit]{
+	color: white;
+	background-color: rgba(78, 152, 54, 1);
+	padding: 5px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+input[type=submit]:hover{
+	background-color: rgb(53, 125, 30);
+}
+@media screen  and (min-width: 481px) and (max-width: 960px) {
+	@media screen and (min-width: 481px) and (max-width: 700px) {
+		#menu{
+		position: absolute;
+		}
+		#menu ul{
+			top: 0;
+			display: none;
+		}
+		#menuWidthImage img{
+			display: block;
+	 		margin-left: auto;
+	 		margin-right: auto;
+		}
+		#TitleSmall{
+			display: none;
+		}
+		#TitleBig{
+			font-size: 40px;
+		}
+	}
+	.toolItem{
+		width: 48%;
+		display: inline-block;
+		float: left;
+		margin-top: 5%;
+		margin-left: 4%;
+	}
+	#toolItem1, #toolItem3, #toolItem5{
+	margin-left: 0;
+	}
+	#toolItem4{
+		margin-left: 4%;
+	}
+	#aboutMe{
+		width: 100%;
+		padding-right: 4%;
+	}
+	#stalker{
+		width: 100%;
+		padding-top: 10%;
+		padding-right: 4%;
+	}
+}
+@media screen and (max-width: 480px) {
+	#menu{
+		position: absolute;
+	}
+	#menu ul{
+		top: 0;
+		display: none;
+	}
+	#menuWidthImage img{
+		display: block;
+ 		margin-left: auto;
+ 		margin-right: auto;
+	}
+	#TitleSmall{
+		display: none;
+	}
+	#TitleBig{
+			font-size: 30px;
+		}
+	/*tool*/
+	.toolItem{
+		width: 100%;
+		margin-top: 5%;
+		margin-left: 0;
+	}
+	#aboutMe{
+		width: 100%;
+		padding-right: 4%;
+	}
+	#stalker{
+		width: 100%;
+		padding-top: 10%;
+		padding-right: 4%;
+	}
+}

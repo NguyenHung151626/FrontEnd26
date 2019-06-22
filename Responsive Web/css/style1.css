@@ -1,0 +1,81 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#parents{
+	width: 96%;
+	padding: 2%;
+	background-color: black;
+}
+#parentsNoBorder{
+	width: 96%;
+	padding: 2%;
+	background-color: green;
+}
+.khung{
+	width: 23.5%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	margin-left: 2%;
+}
+#khung1{
+	margin-left: 0;
+}
+.images{
+	position: relative;
+	width: 100%;
+}
+img{
+	width: 100%;
+}
+.text{
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*display: none;*/
+}
+.khung > p{
+	text-align: center;
+}
+.textTitle{
+	margin-top: 10%;
+	text-align: center;
+	color: rgba(255, 165, 0, 0.82);
+}
+.information{
+	text-align: center;
+	margin: 0 5% 0 5%;
+}
+.icons{
+	text-align: center;
+}
+i{
+	padding: 10px;
+	border-radius: 2px;
+	background-color: orange;
+}
+/*.images:hover .text{
+	display: block;
+}*/
+.images:hover img{
+	opacity: 0.3;
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px){
+	.khung{
+		width: 48%;
+	}
+	#khung3{
+		margin-left: 0;
+	}
+	#khung3, #khung4{
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.khung{
+		width: 100%;
+		margin: 20px 2% 2% 0;
+	}
+}
