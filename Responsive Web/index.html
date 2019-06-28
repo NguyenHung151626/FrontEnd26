@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 </head>
-<body style="background-color: #80808038">
+<body style="background-color: rgba(128, 128, 128, 0.12); font-family: 'Georgia';">
 	<div id="menu">
 		<ul>
 			<li>
@@ -19,46 +19,46 @@
 			</li>
 			<li>
 				<a href="">
-					Homepage
+					Posts
 					<i class="fa fa-chevron-down" aria-hidden="true"></i>
 				</a>
-				<p>variations</p>
+				<p>layouts</p>
 			</li>
 			<li>
 				<a href="">
-					Homepage
+					Post views
 					<i class="fa fa-chevron-down" aria-hidden="true"></i>
 				</a>
-				<p>variations</p>
+				<p>available</p>
 			</li>
 			<li>
 				<a href="">
-					Homepage
+					Category
 					<i class="fa fa-chevron-down" aria-hidden="true"></i>
 				</a>
-				<p>variations</p>
+				<p>mega menu</p>
 			</li>
 			<li>
 				<a href="">
-					Homepage
+					Shop
 					<i class="fa fa-chevron-down" aria-hidden="true"></i>
 				</a>
-				<p>variations</p>
+				<p>details</p>
 			</li>
 			<li>
 				<a href="">
-					Homepage
+					Pages
 					<i class="fa fa-chevron-down" aria-hidden="true"></i>
 				</a>
-				<p>variations</p>
+				<p>available</p>
 			</li>
 		</ul>
 	</div>
 	<div class="owl-stage-outer">
-		<div id="prev" onclick="prev()">
+		<div class="prev" onclick="prev()">
 			<i class="fa fa-chevron-left" aria-hidden="true"></i>
 		</div>
-		<div id="next" onclick="next()">
+		<div class="next" onclick="next()">
 			<i class="fa fa-chevron-right" aria-hidden="true"></i>
 		</div>
 		<div class="owl-stage">
@@ -121,7 +121,7 @@
 					<p id="div2info">
 						The options, layouts settings the drag-n-drop builder make it the perfect choice.
 					</p>
-					<button>Find out more</button>
+					<button class="pBtn">Find out more</button>
 				</div>
 			</div>
 		</div>
@@ -130,8 +130,8 @@
 		<div class="wrapper">
 			<div id="div3Parents">
 				<div id="topArticles">
-					<div id="tieudeTA">
-						TOP ARTICLES
+					<div class="tieudechung">
+						TOP ARTICLES<hr class="thanhmau">
 					</div>
 					<div class="article">
 						<div class="artNo">
@@ -297,10 +297,346 @@
 			</div>
 		</div>
 	</div>
+	<div class="owl-stage-outer">
+		<div class="prev" onclick="prev()">
+			<i class="fa fa-chevron-left" aria-hidden="true"></i>
+		</div>
+		<div class="next" onclick="next()">
+			<i class="fa fa-chevron-right" aria-hidden="true"></i>
+		</div>
+		<div class="owl-stage">
+			<div class="image">
+				<img src="slide2/2.jpg">
+			</div>
+			<div class="image">
+				<img src="slide2/3.jpg">
+			</div>
+			<div class="image">
+				<img src="slide2/4.jpg">
+			</div>
+			<div class="image">
+				<img src="slide2/5.jpg">
+			</div>
+		</div>
+	</div>
 	<div id="div4">
 		<div class="wrapper">
-			aaabbb
+			<div class="purchase" id="pNoPadding">
+				<p class="pTieude">SUBSCRIBER</p>
+				<div class="price">
+					<p class="gia"><span class="iconDollar">&dollar;</span><span class="so">99</span>/MO</p>
+					<p class="pText">This is the minimum package available with a small description here</p>
+				</div>
+				<div class="buy">
+					<p class="firstBuy">Access to articles</p>
+					<p>Submit comments</p>
+					<p>-</p>
+					<p>-</p>
+					<p>-</p>
+					<button class="pBtn">Buy now</button>
+				</div>
+			</div>
+			<div class="purchase" id="purchase2nd">
+				<div id="mostpopular">
+					<p>most popular</p>
+					
+				</div>
+				<p class="pTieude">SUBSCRIBER</p>
+				<div class="price">
+					<p class="gia"><span class="iconDollar">&dollar;</span><span class="so">199</span>/MO</p>
+					<p class="pText">This is the medium package available with a small description here</p>
+				</div>
+				<div class="buy">
+					<p class="firstBuy">Access to articles</p>
+					<p>Submit comments</p>
+					<p>Access to advertising</p>
+					<p>-</p>
+					<p>-</p>
+					<button class="pBtn">Buy now</button>
+				</div>
+			</div>
+			<div class="purchase">
+				<p class="pTieude">SUBSCRIBER</p>
+				<div class="price">
+					<p class="gia"><span class="iconDollar">&dollar;</span><span class="so">299</span>/MO</p>
+					<p class="pText">This is the maximum package available with a small description here</p>
+				</div>
+				<div class="buy">
+					<p class="firstBuy">Access to articles</p>
+					<p>Submit comments</p>
+					<p>Access to advertising</p>
+					<p>Add articles</p>
+					<p>Remove/Edit articles</p>
+					<button class="pBtn">Buy now</button>
+				</div>
+			</div>
 		</div>
+	</div>
+	<div id="div5">
+		<div class="wrapper">
+			<div id="div5Left">
+				<p>Check our</p>
+				<p id="d5p2">PRODUCTS</p>
+				<p id="d5p3">Welcome to Shop Q, where you’re guaranteed to find something to wear without breaking your wallet’s heart.  We believe in providing women with clothes that are both affordable and stylish. You should look and feel like a million bucks without having to spend a million bucks. High quality should not be compromised for the sake of cost.</p>
+				<button id="d5b"><i class="fa fa-shopping-cart" aria-hidden="true"></i> SHOP NOW</button>
+			</div>
+			<div id="div5Right">
+				<div class="hang">
+					<div class="dress dressFirst">
+						<div class="d5image">
+							<img src="slide2/d52.jpg">
+							<div class="saleicon">
+								<span>SALE</span>
+							</div>
+						</div>
+						<div class="d5info">
+							<p class="d5name">OPEN SHOULDER TEE</p>
+							<div class="d5trai">
+								<p class="d5type">Dress</p>
+							</div>
+							<div class="d5phai">
+								<p class="d5price">&pound;142.00</p>
+								<p class="d5sale">&pound;140.00</p>
+							</div>
+						</div>
+					</div>
+					<div class="dress">
+						<div class="d5image">
+							<img src="slide2/d53.jpg">
+							<div class="saleicon">
+								<span>SALE</span>
+							</div>
+						</div>
+						<div class="d5info">
+							<p class="d5name">LILAC RUFFLE SLEEVE TEE<span class="stars"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span></p>
+							<div class="d5trai">
+								<p class="d5type">Top</p>
+							</div>
+							<div class="d5phai">
+								<p class="d5price">&pound;211.00</p>
+								<p class="d5sale">&pound;150.00</p>
+							</div>
+						</div>
+					</div>
+					<div class="dress">
+						<div class="d5image">
+							<img src="slide2/d54.jpg">
+							<div class="saleicon">
+								<span>SALE</span>
+							</div>
+						</div>
+						<div class="d5info">
+							<p class="d5name">OPEN SHOULDER TEE</p>
+							<div class="d5trai">
+								<p class="d5type">Dress</p>
+							</div>
+							<div class="d5phai">
+								<p class="d5price">&pound;251.00</p>
+								<p class="d5sale">&pound;240.00</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="hang" id="hang2">
+					<div class="dress dressFirst">
+						<div class="d5image">
+							<img src="slide2/d55.jpg">
+							<div class="saleicon">
+								<span>SALE</span>
+							</div>
+						</div>
+						<div class="d5info">
+							<p class="d5name">OPEN SHOULDER TEE<span class="stars"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span></p>
+							<div class="d5trai">
+								<p class="d5type">Dress</p>
+							</div>
+							<div class="d5phai">
+								<p class="d5price">&pound;183.00</p>
+								<p class="d5sale">&pound;180.00</p>
+							</div>
+						</div>
+					</div>
+					<div class="dress">
+						<div class="d5image">
+							<img src="slide2/d56.jpg">
+							<div class="saleicon">
+								<span>SALE</span>
+							</div>
+						</div>	
+						<div class="d5info">
+							<p class="d5name">LILAC RUFFLE SLEEVE TEE</p>
+							<div class="d5trai">
+								<p class="d5type">Top</p>
+							</div>
+							<div class="d5phai">
+								<p class="d5price">&pound;112.00</p>
+								<p class="d5sale">&pound;100.00</p>
+							</div>
+						</div>
+					</div>
+					<div class="dress">
+						<div class="d5image">
+							<img src="slide2/d57.jpg">
+							<div class="saleicon">
+								<span>SALE</span>
+							</div>
+						</div>
+						<div class="d5info">
+							<p class="d5name">OPEN SHOULDER TEE</p>
+							<div class="d5trai">
+								<p class="d5type">Dress</p>
+							</div>
+							<div class="d5phai">
+								<p class="d5price">&pound;120.00</p>
+								<p class="d5sale">&pound;110.00</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="wrapper">
+			<div class="fkhoi fkhoiFirst">
+				<div class="tieudechung">
+					MOST POPULAR<hr class="thanhmau">
+				</div>
+				<div id="fi-hang1">
+					<div class="fimage">
+						<div class="f-image-container">
+							<img src="img/f1.jpg">
+						</div>
+						<p class="fi-ten">Get it off your mind</p>
+						<p class="fi-nghieng"><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;&nbsp;188&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-eye" aria-hidden="true"></i>&nbsp;&nbsp;5024</p>
+					</div>
+					<div class="fimage f-ml">
+						<div class="f-image-container">
+							<img src="img/div1_3.jpg">
+						</div>
+						<p class="fi-ten">Enjoy the full of it</p>
+						<p class="fi-nghieng"><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;&nbsp;151&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-eye" aria-hidden="true"></i>&nbsp;&nbsp;4676</p>
+					</div>
+				</div>
+				<div id="fi-hang2">
+					<div class="fimage">
+						<div class="f-image-container">
+							<img src="img/div1_1.png">
+						</div>
+						<p class="fi-ten">Save the clock tower now</p>
+						<p class="fi-nghieng"><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;&nbsp;130&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-eye" aria-hidden="true"></i>&nbsp;&nbsp;4452</p>
+					</div>
+					<div class="fimage f-ml">
+						<div class="f-image-container">
+							<img src="img/div1_2.jpg">
+						</div>
+						<p class="fi-ten">I like what is happening</p>
+						<p class="fi-nghieng"><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;&nbsp;106&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-eye" aria-hidden="true"></i>&nbsp;&nbsp;3770</p>
+					</div>
+				</div>
+			</div>
+			<div class="fkhoi">
+				<div class="tieudechung re-margin">
+					CATEGORIES<hr class="thanhmau">
+				</div>
+				<div id="categories">
+					<p>Classic</p>
+					<p>Design</p>
+					<p>Fashion</p>
+					<p>Lifestyle</p>
+					<p>Stories</p>
+					<p>Style</p>
+					<p>Travel</p>
+				</div>
+				<div class="tieudechung">
+					TAGS<hr class="thanhmau">
+				</div>
+				<div class="tag">
+					one &nbsp;<i class="fa fa-circle" aria-hidden="true"></i>
+				</div>
+				<div class="tag">
+					touchsize &nbsp;<i class="fa fa-circle" aria-hidden="true"></i>
+				</div>
+				<div class="tag">
+					esquise &nbsp;<i class="fa fa-circle" aria-hidden="true"></i>
+				</div>
+				<div class="tag">
+					magazine &nbsp<i class="fa fa-circle" aria-hidden="true"></i>
+				</div>
+				<div class="tag">
+					fashion &nbsp;<i class="fa fa-circle" aria-hidden="true"></i>
+				</div>
+			</div>
+			<div class="fkhoi">
+				<div class="tieudechung re-margin">
+					FLICKR<hr class="thanhmau">
+				</div>
+				<div class="f-hang">
+					<div class="fh-image fh-image-first">
+						<img src="img/fh1.jpg">
+					</div>
+					<div class="fh-image">
+						<img src="img/fh2.jpg">
+					</div>
+					<div class="fh-image">
+						<img src="img/fh3.jpg">
+					</div>
+					<div class="fh-image">
+						<img src="img/fh4.jpg">
+					</div>
+				</div>
+				<div class="f-hang">
+					<div class="fh-image fh-image-first">
+						<img src="img/fh5.jpg">
+					</div>
+					<div class="fh-image">
+						<img src="img/fh6.jpg">
+					</div>
+					<div class="fh-image">
+						<img src="img/fh7.jpg">
+					</div>
+					<div class="fh-image">
+						<img src="img/fh8.jpg">
+					</div>
+				</div>
+				<div class="tieudechung mail-margin">
+					MAILCHIMP REGISTER<hr class="thanhmau">
+				</div>
+				<div id="f-email">
+					<label for="email">Email Address:</label>
+					<input type="text" name="email" placeholder="Your email address">
+					<button>SIGN UP</button>
+				</div>
+			</div>
+			<div class="fkhoi fkhoi-last">
+				<p class="re-mt">DROP US A LINE</p>
+				<div id="f-hang1">
+					<div id="f1-left">
+						<label for="name">NAME</label>
+						<input type="text" name="name">
+					</div>
+					<div id="f1-right">
+						<label for="ff-email">EMAIL</label>
+						<input type="text" name="ff-email">
+					</div>
+					<p id="textArea">TEXT</p>
+					<textarea rows="5"></textarea>
+					<button class="send">SEND</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="getInTouch">
+		<p>GET IN TOUCH</p>
+		<p>
+		<i class="fa fa-google-plus" aria-hidden="true"></i>
+		<i class="fa fa-twitter" aria-hidden="true"></i>
+		<i class="fa fa-youtube-play" aria-hidden="true"></i>
+		<i class="fa fa-facebook-square" aria-hidden="true"></i>
+		<i class="fa fa-wifi" aria-hidden="true"></i>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<span>San Francisco, CA 91245. +1 245 382 151</span>
+		</p>
 	</div>
 	<script type="text/javascript" src="Event.js"></script>
 </body>
