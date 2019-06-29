@@ -1,0 +1,92 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.error{
+	color: red;
+}
+#tieude{
+	height: 50px;
+	margin-top: 20px;
+}
+#tieude p{
+	width: 10%;
+	float: left;
+	margin-left: 5px;
+	padding: 10px;
+	border-radius: 6px;
+	cursor: pointer;
+	background-color: rgba(33, 132, 190, 0.6);
+	color: white;
+}
+.blue{
+	background-color: rgb(33, 132, 190)!important;
+}
+.first{
+	margin-left: 0!important;
+}
+#formx3{
+	position: relative;
+	background-color: rgba(229, 229, 229, 0.6);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+#daude{
+	padding: 20px 0;	
+	margin: 0 2.5%;
+	font-weight: bold;
+	font-size: 30px;
+	border-bottom: 1px solid #e5e5e5;
+}
+form{
+	width: 95%;
+	background-color: rgba(229, 229, 229, 0.6);
+	padding: 20px 2.5%;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#account, #profile, #term{
+	position: absolute;
+	height: 375px;
+}
+#controls{
+	position: relative;
+}
+#button{
+	position: absolute;
+	right: 0;
+	top: 415px;
+}
+#prev, #next{
+	border: none;
+    padding: 8px 12px;
+    background-color: rgb(11, 144, 222);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*form*/
+input[type=text], input[type=password], input[type=email]{
+	display: block!important;
+	width: 30%;
+	padding: 8px 12px;
+	margin: 12px 0;
+	border-radius: 4px;
+	border: 1px solid #e5e5e5;
+}
+#cage{
+	width: 10%;
+}
+#account label, #profile label{
+	display: inline-block;
+}
+.wide{
+	width: 15%;
+}
+.mo{
+	cursor: default;
+	opacity: 0.4;
+}
+/*#account .error, #account .error{
+	display: inline-block;
+}*/

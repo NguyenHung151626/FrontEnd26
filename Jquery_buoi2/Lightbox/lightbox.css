@@ -1,0 +1,59 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.lightbox{
+	width: 100%;
+	position: relative;
+}
+.image--s{
+	width: 25%;
+	float: left;
+	cursor: pointer;
+}
+.image--s img{
+	width: 100%;
+}
+.image--w{
+	width: 100%;
+	position: absolute;
+	z-index: 10;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.image--w i{
+	z-index: 20;
+	color: white;
+	cursor: pointer;
+}
+.image--w .fa-times{
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 40px;
+}
+.image--w .fa-chevron-left,
+.image--w .fa-chevron-right{
+	position: absolute;
+	top: 55%;
+	font-size: 30px;
+	padding: 1%;
+}
+.image--w .fa-chevron-right{
+	right: 10%;
+}
+.image--w .fa-chevron-left{
+	left: 10%;
+}
+.image--w .fa-chevron-left:hover,
+.image--w .fa-chevron-right:hover{
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.image--w img{
+	padding: 10% 10% 0 10%;
+	width: 80%;
+}
+.image--w p{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}

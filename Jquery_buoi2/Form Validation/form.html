@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Validation</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="jquery.validate.min.js"></script>
+</head>
+<body>
+	<div id="tieude">
+		<p class="first">1. Account</p>
+		<p>2. Profile</p>
+		<p>3. Term</p>
+	</div>
+	<div id="formx3">
+		<p id="daude">Account Information</p>
+		<form method="POST" action="#1" id="account">
+			<p>
+				<label class="wide" for="username">User name *</label>
+				<label id="username-error" class="error" for="username"></label>
+				<input id="username" type="text" name="username">
+			</p>
+			<p>
+				<label class="wide" for="password">Password *</label>
+				<label id="password-error" class="error" for="password"></label>
+				<input id="password" type="password" name="password">
+			</p>
+			<p>
+				<label class="wide" for="cf_password">Confirm Password *</label>
+				<label id="cf_password-error" class="error" for="cf_password"></label>
+				<input id="cf_password" type="password" name="cf_password">
+			</p>
+		</form>
+		<form method="POST" action="#2" id="profile">
+			<p>
+				<label class="wide" for="fname">First name *</label>
+				<label id="fname-error" class="error" for="fname"></label>
+				<input id="fname" type="text" name="fname">
+			</p>
+			<p>
+				<label class="wide" for="lname">Last name *</label>
+				<label id="lname-error" class="error" for="lname"></label>
+				<input id="lname" type="text" name="lname">
+			</p>
+			<p>
+				<label class="wide" for="cemail">Email *</label>
+				<label id="cemail-error" class="error" for="cemail"></label>
+				<input id="cemail" type="email" name="email">
+			</p>
+			<p>
+				<label class="wide" for="caddress">Address</label>
+				<label id="caddress-error" class="error" for="caddress"></label>
+				<input id="caddress" type="text" name="address">
+			</p>
+			<p>
+				<label class="wide" for="cage">Age *</label>
+				<label id="cage-error" class="error" for="cage"></label>
+				<input id="cage" type="text" name="age">
+			</p>
+		</form>
+		<form method="POST" action="#3" id="term">
+			<input type="checkbox" name="check" required="true">Agree with the terms below
+		</form>
+	</div>
+	<div id="controls">
+		<div id="button">
+			<button id="prev">Previous</button>
+			<button id="next">Next</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="form.js"></script>
+</body>
+</html>
