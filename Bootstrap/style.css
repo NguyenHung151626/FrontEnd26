@@ -1,0 +1,43 @@
+.f-image{
+	background-image: url('img/elle-image.jpg');
+	background-size: cover;
+	padding-top: 0;
+	margin-bottom: 0;
+}
+.maunen{
+	background-color: rgba(0, 0, 0, 0.3);
+
+}
+.mautext{
+	color: rgba(255, 255, 255, 0.7);
+}
+.doinut{
+	border-radius: 30px;
+	background-color: #de5851;
+	color: white;
+	font-weight: bold;
+	padding: 20px;
+}
+.maunen2{
+	background-color: #de5851;
+}
+#mau-hr1{
+	background-color: white;
+}
+#mau-hr2{
+	background-color: white;
+}
+.dotnut-v2{
+	background-color: white;
+	color: black;
+}
+.tieudekimcuong, .textkimcuong{
+	text-align: center;
+}
+.tieudekimcuong{
+	font-size: 30px;
+	font-weight: 500;
+}
+.borderanh{
+	border: 0.5px solid white;
+}
