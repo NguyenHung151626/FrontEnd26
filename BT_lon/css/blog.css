@@ -1,0 +1,253 @@
+/*navbar*/
+#navbarNav .navbar-nav .active > .nav-link, .nav-link:hover{
+	color: #ff2f00!important;
+}
+.nav-link{
+	font-weight: 500;
+}
+#content{
+	width: 100%;
+}
+.maudo{
+	color: #ff2f00;
+}
+
+/*footer*/
+#footer{
+	background-color: #1f1f1ff0;
+	color: white;
+}
+.tieudefooter{
+	padding: 20px 0;
+}
+#footer p i{
+	color: white;
+    border-radius: 20px;
+	background-color: black;
+}
+.fa-facebook--padding{
+    padding: 8px 11.5px;
+}
+.fa-twitter--padding{
+	padding: 8px 9px;
+}
+.fa-instagram--padding{
+	padding: 8px 9px;
+}
+.fa-youtube-play--padding{
+	padding: 8px;
+}
+.fa-google-plus--padding{
+	padding: 8px 6px;
+}
+.ftext-padding{
+	padding: 1rem 0;
+}
+.ftext-border{
+	border-bottom: 1px solid white;
+}
+.ftext-padding--nopt{
+	padding-top: 0;
+}
+.i--nobg p i{
+	background: initial!important;
+	font-size: 1.5rem!important;
+}
+/*khoicuoi*/
+#khoicuoi{
+	color: white;
+	background-color: black;
+}
+#khoicuoi a{
+	color: white!important;
+	font-weight: initial;
+}
+#dandong{
+	margin: 0 auto;
+}
+#dandong .nav-item{
+	float: left;
+}
+.nav-link--cursordf{
+	cursor: default;
+}
+#khoicuoi #dandong .nav-link:hover{
+	color: rgba(255, 255, 255, 0.6)!important;
+}
+
+/*chung*/
+.tieudelon, .tieudenho, .hinh {
+	text-align: center;
+}
+.tieudelon{
+	font-size: 24px;
+}
+.textnho{
+	font-size: 12px!important;
+}
+
+/*khoi2*/
+.hopthongtin{
+	border: 1px solid gray;
+	border-radius: 5px;
+	height: fit-content;
+}
+.page-item{
+	margin-left: 4px;
+}
+.page-item .page-link{
+	border-radius: 0.25rem;
+}
+.page-item--nomargin{
+	margin-left: 0;
+}
+.page-item.active .page-link {
+	color: white;
+    background-color: #fd4a2d;
+    border-color: #fd4a2d;
+}
+.page-link:hover{
+    color: white;
+    background-color: #fd4a2d;
+    border-color: #fd4a2d;
+}
+@media screen and (max-width: 575px) {
+	#pagination--sm{
+		display: flex!important;
+	}
+}
+.date{
+	text-align: center;
+	color: white;
+	background-color: #fd4a2d;
+	border-bottom: 5px solid black;
+	border-radius: 5px 5px 0 0;
+	margin: 0;
+	padding: 0.5rem;
+}
+.thongtinnguoidung{
+	margin: 0;
+	padding: 0.5rem;
+	border-bottom: 1px solid white;
+	background-color: #cccccc9c;
+}
+.thongtinnguoidung--noborder{
+	border-bottom: none;
+}
+.thongtinnguoidung i{
+	font-size: 12px;
+	color: gray;
+}
+.tieudeblog{
+	font-size: 20px;
+}
+.btn--red{
+	background-color: #fd4a2d;
+	color: white;
+}
+.btn--red:hover{
+	background-color: #dc3f25f5;
+}
+.anhlon{
+	width: 100%;
+}
+.anhlon img{
+	width: 100%;
+	border-radius: 5px;
+}
+.search{
+    padding: 8px 12px;
+}
+.thanghang{
+	position: relative;
+	top: 2.4rem;
+	cursor: pointer;
+}
+.thanghang:hover{
+	opacity: 0.4;
+}
+.thietbi{
+	padding-bottom: 6px;
+}
+.thietbi--ten{
+	color: black;
+    padding: 6px 20px 6px 10px;
+    background-color: #cccccc9c;
+    border-radius: 4px;
+}
+.thietbi--ten:hover {
+    color: white;
+    background-color: #fd4a2d;
+    border-color: #fd4a2d;
+    text-decoration: none;
+}
+.thietbi--diemso{
+	position: relative;
+    top: -18px;
+    left: 12px;
+    padding: 2px 5px;
+    display: inline-block;
+    background-color: #f76b54;
+    color: white;
+    border-radius: 4px;
+}
+.thietbi--diemso::after{
+	position: absolute;
+	bottom: -8px;
+    right: 9px;
+	content: "";
+	width: 0;
+	height: 0;
+	border-top: 10px solid #f76b54;
+	border-right: 10px solid transparent;
+}
+.thietbi--firstdandong{
+	margin-top: 1.5rem;
+}
+.dongngaythang--border{
+    border-bottom: 1px dotted rgba(128, 128, 128, 0.4);
+    margin-top: 10px;
+    cursor: pointer;
+}
+.dongngaythang--border:hover{
+	color: rgba(128, 128, 128, 0.25);
+}
+.dongngaythang--nomt{
+	margin-top: 0;
+}
+.dongngaythang{
+	display: inline-block;
+}
+.soluottruycap{
+	display: inline-block;
+    float: right;
+}
+.tag{
+	display: block;
+	float: left;  
+}
+.tag a{
+	font-size: 14px;
+    padding: 6px 10px;
+    background-color: #cccccc9c;
+    border-radius: 4px;
+    margin-right: 10px;
+    color: black;
+}
+.tag a:hover {
+    color: white;
+    background-color: #fd4a2d;
+    border-color: #fd4a2d;
+    text-decoration: none;
+}
+#phaikhoi5{
+	clear: both;
+}
+#phaikhoi5 img{
+	width: 95%;
+	padding: 0 5% 5% 0;
+	cursor: pointer;
+}
+#phaikhoi5 img:hover{
+	opacity: 0.8;
+}

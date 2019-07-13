@@ -1,0 +1,169 @@
+#navbarNav .navbar-nav .active > .nav-link, .nav-link:hover{
+	color: #ff2f00!important;
+}
+.nav-link{
+	font-weight: 500;
+}
+#content{
+	width: 100%;
+}
+.maudo{
+	color: #ff2f00;
+}
+#slide_1 .active span, #slide_1 .owl-dot:hover span {
+    background: #ff2f00;
+}
+#slide_1 .owl-dots{
+	margin-top: 20px;
+}
+#slide_1 .owl-nav{
+	position: absolute;
+	top: 40%;
+	width: 100%;
+}
+#slide_1 .owl-next span{
+	right: 5%;
+}
+#slide_1 .owl-prev span{
+	left: 5%;
+}
+#slide_1 .owl-next span:hover, #slide_1 .owl-prev span:hover{
+	color: white;
+	background-color: gray;
+}
+#slide_1 .owl-next span, #slide_1 .owl-prev span{
+	position: absolute;
+	top: 0;
+	font-size: 20px;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: #ffffff94;
+    background-color: rgba(60, 57, 57, 0.74);
+}
+@media screen and (max-width: 575px) {
+	#slide_1 .owl-next span, #slide_1 .owl-prev span{
+		font-size: 10px;
+	    margin: 0;
+	    padding: 0 5px;
+	}
+	#slide_1 .owl-nav{
+		top: 35%;
+	}
+}
+@media screen and (min-width: 576px) and (max-width: 991px) {
+	#slide_1 .owl-next span, #slide_1 .owl-prev span{
+		font-size: 16px;
+	    margin: 0;
+	    padding: 2px 8px 2px 10px;
+	}
+}
+
+/*khoi3*/
+#khoi3 p, .tieudelon, .tieudenho, .hinh {
+	text-align: center;
+}
+.tieudelon{
+	font-size: 24px;
+}
+.hinh i{
+	color: white;
+    padding: 15px;
+    background-color: #ff2f00;
+    font-size: 30px;
+    border-radius: 30px;
+    margin-bottom: 3rem;
+}
+.textnho{
+	font-size: 12px!important;
+}
+@media screen and (max-width: 413px) {
+	.hinh--small i{
+		padding: 10px;
+		font-size: 20px;
+	    border-radius: 20px;
+	}
+}
+
+/*khoi7*/
+#khoi7{
+	background-color: #f3522e;
+}
+.nuttrang{
+	background-color: white;
+	border-radius: 20px;
+	padding: 10px;
+	cursor: pointer;
+}
+.nuttrang:hover{
+	color: white;
+	background-color: #2f2d2f;
+}
+/*khoi8*/
+#khoi8 img{
+	border-radius: 15%;
+	display: block;
+	margin: 0 auto;
+}
+#footer{
+	background-color: #1f1f1ff0;
+	color: white;
+}
+.tieudefooter{
+	padding: 20px 0;
+}
+#footer p i{
+	color: white;
+    border-radius: 20px;
+	background-color: black;
+}
+.fa-facebook--padding{
+    padding: 8px 11.5px;
+}
+.fa-twitter--padding{
+	padding: 8px 9px;
+}
+.fa-instagram--padding{
+	padding: 8px 9px;
+}
+.fa-youtube-play--padding{
+	padding: 8px;
+}
+.fa-google-plus--padding{
+	padding: 8px 6px;
+}
+.ftext-padding{
+	padding: 1rem 0;
+}
+.ftext-border{
+	border-bottom: 1px solid white;
+}
+.ftext-padding--nopt{
+	padding-top: 0;
+}
+.i--nobg p i{
+	background: initial!important;
+	font-size: 1.5rem!important;
+}
+
+/*khoicuoi*/
+#khoicuoi{
+	color: white;
+	background-color: black;
+}
+#khoicuoi a{
+	color: white!important;
+	font-weight: initial;
+}
+#dandong{
+	margin: 0 auto;
+}
+#dandong .nav-item{
+	float: left;
+}
+.nav-link--cursordf{
+	cursor: default;
+}
+#khoicuoi #dandong .nav-link:hover{
+	color: rgba(255, 255, 255, 0.6)!important;
+}

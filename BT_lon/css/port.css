@@ -1,0 +1,104 @@
+/*navbar*/
+#navbarNav .navbar-nav .active > .nav-link, .nav-link:hover{
+	color: #ff2f00!important;
+}
+.nav-link{
+	font-weight: 500;
+}
+#content{
+	width: 100%;
+}
+.maudo{
+	color: #ff2f00;
+}
+
+/*footer*/
+#footer{
+	background-color: #1f1f1ff0;
+	color: white;
+}
+.tieudefooter{
+	padding: 20px 0;
+}
+#footer p i{
+	color: white;
+    border-radius: 20px;
+	background-color: black;
+}
+.fa-facebook--padding{
+    padding: 8px 11.5px;
+}
+.fa-twitter--padding{
+	padding: 8px 9px;
+}
+.fa-instagram--padding{
+	padding: 8px 9px;
+}
+.fa-youtube-play--padding{
+	padding: 8px;
+}
+.fa-google-plus--padding{
+	padding: 8px 6px;
+}
+.ftext-padding{
+	padding: 1rem 0;
+}
+.ftext-border{
+	border-bottom: 1px solid white;
+}
+.ftext-padding--nopt{
+	padding-top: 0;
+}
+.i--nobg p i{
+	background: initial!important;
+	font-size: 1.5rem!important;
+}
+/*khoicuoi*/
+#khoicuoi{
+	color: white;
+	background-color: black;
+}
+#khoicuoi a{
+	color: white!important;
+	font-weight: initial;
+}
+#dandong{
+	margin: 0 auto;
+}
+#dandong .nav-item{
+	float: left;
+}
+.nav-link--cursordf{
+	cursor: default;
+}
+#khoicuoi #dandong .nav-link:hover{
+	color: rgba(255, 255, 255, 0.6)!important;
+}
+
+/*chung*/
+.tieudelon, .tieudenho, .hinh {
+	text-align: center;
+}
+.tieudelon{
+	font-size: 24px;
+}
+.textnho{
+	font-size: 12px!important;
+}
+
+/*khoi2*/
+#khoianh img{
+	width: 100%;
+}
+#myBtnContainer .btn-light:not(:disabled):not(.disabled).active, 
+#myBtnContainer .btn-light:not(:disabled):not(.disabled):active,
+#myBtnContainer .btn:hover {
+	color: white;
+	background-color: #ff2f00;
+}
+@media screen and (max-width: 400px) {
+	.sm--400{
+		font-size: 12px;
+		text-align: left!important;
+	}
+}
